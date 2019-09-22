@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layouting</string>
+    <string name="sinau_kotlin">Sinau Kotlin</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="masukan_no_hp">Masukan No HP</string>
+    <string name="enter">Enter</string>
+    <string name="hai">Hai</string>
+</resources>

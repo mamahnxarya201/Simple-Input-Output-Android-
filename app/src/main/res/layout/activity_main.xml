@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sinau_kotlin"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"/>
+     <EditText
+         android:id="@+id/edtNama"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txt1"
+         android:layout_marginTop="10dp"
+         android:hint="@string/masukan_nama"/>
+    <EditText
+        android:id="@+id/edtTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNama"
+        android:layout_marginTop="10dp"
+        android:hint="@string/masukan_no_hp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edtTelp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/enter"
+        android:textColor="#FFF" />
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="30sp"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/msg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/msg1"
+        android:layout_marginTop="30sp"
+        android:textSize="30dp"/>
+</RelativeLayout>
