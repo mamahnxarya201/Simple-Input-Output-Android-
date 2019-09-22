@@ -5,4 +5,9 @@
     <string name="masukan_no_hp">Masukan No HP</string>
     <string name="enter">Enter</string>
     <string name="hai">Hai</string>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
 </resources>
