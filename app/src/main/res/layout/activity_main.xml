@@ -33,11 +33,11 @@
         android:layout_height="50dp"
         android:id="@+id/btn1"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/edtTelp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/blue"
         android:text="@string/enter"
-        android:textColor="#FFF" />
+        android:textColor="#FFF"
+        android:layout_below="@+id/spkelamin"/>
     <TextView
         android:id="@+id/msg1"
         android:layout_width="match_parent"
@@ -54,4 +54,12 @@
         android:layout_below="@id/msg1"
         android:layout_marginTop="30sp"
         android:textSize="30dp"/>
+    <Spinner
+        android:id="@+id/spkelamin"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/edtTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
 </RelativeLayout>
